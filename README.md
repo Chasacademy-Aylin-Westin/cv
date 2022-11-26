@@ -1,6 +1,6 @@
-## CV-Sida
+## Dynamisk-Sida
 
-## Uppgift 1 - Skapa CV-sida
+## Uppgift 2 - Dynamisk sida
 
 ## Aylin Westin
 
