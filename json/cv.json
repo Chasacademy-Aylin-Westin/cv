@@ -1,0 +1,64 @@
+{
+    "employment": [
+        {
+            "heading": "2024-Present - Spotify",
+            "location": "Stockholm",
+            "jobTitle": "Junior UX/UI Designer, Front-end Developer",
+            "text": "Supported a design team that handled Spotify Premium seasonal and evergreen campaign material. Worked closely with engineers, designer's and PM's."
+        },
+        {
+            "heading": "2015-2020 - Healthcare Organisation",
+            "location": "Stockholm",
+            "jobTitle": "Nursing Associate",
+            "text": "Provided total patient care as stated in patiens's plan of care or needs. Daily temperature measure, blood sugar level and medications."
+        },
+        {
+            "heading": "2014-2015 - Karolinska University Hospital",
+            "location": "Stockholm",
+            "jobTitle": "Nursing Associate",
+            "text": "Provided nursing assistance on Emergency care department AVA Solna. Test and chart vital signs including blood pressure, temperature and blood sugar levels. Collaborate effectively with interdisciplinary team to carry out doctor's orders and optimal treatment. Help patients with daily activities such as meals, hygiene and dressing."
+        }
+    ],
+
+    "education": [
+        {
+            "edu": "UX/UI Designer/Front-end Developer Full-time diploma program",
+            "school": "Chas Academy",
+            "period": "2022-2024"
+        },
+        {
+            "edu": "Economics Master's Programme",
+            "school": "Södertörn University",
+            "period": "2020-2021"
+        },
+        {
+            "edu": "Transalation Studies",
+            "school": "Stockholm University",
+            "period": "2018-2019"
+        },
+        {
+            "edu": "Health and Social Care Programme",
+            "school": "Kungsholmens Västra Gymnasium",
+            "period": "2012-2015"
+        }
+    ],
+
+    "skills": [
+        {
+            "lang": "Swedish"
+        },
+        {
+            "lang": "English"
+        },
+        {
+            "lang": "Russian"
+        },
+        {
+            "lang": "Kyrgyz"
+        },
+        {
+            "lang": "Turkish"
+        }
+    ]
+}
+
