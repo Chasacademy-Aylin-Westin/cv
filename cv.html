@@ -12,16 +12,16 @@
     <title>CV Sida</title>
 </head>
 <body>
-    <section class="sub-header">
+    <section class="sub-header3">
         <nav>
             <a href="index.html"><img src="images/logo.jpeg"></a>
             <div class="nav-links">
                 <ul>
                     <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>
                         HOME</a></li>
-                    <li><a href="cv.html"><i class="fa fa-folder-open" aria-hidden="true"></i>
+                    <li><a class="active" href="cv.html"><i class="fa fa-folder-open" aria-hidden="true"></i>
                             CV</a></li>
-                    <li><a class="active" href="portfolio.html"><i class="fa fa-briefcase" aria-hidden="true"></i>
+                    <li><a href="portfolio.html"><i class="fa fa-briefcase" aria-hidden="true"></i>
                         PORTFOLIO</a></li>
                     <li><a href="contact.html"><i class="fa fa-phone" aria-hidden="true"></i>
                         CONTACT ME</a></li>
@@ -30,35 +30,37 @@
         </nav>
     </section>
 
-    <section class="portfolio">
-        <h1>PORTFOLIO</h1>
-        <p>Real Projects Coming Very Soon!</p>
-
-        <div class="row">
-            <div class="portfolio-col">
-                <img src="images/card2.jpeg">
-                <div class="layer">
-                    <h3>Meeting Places</h3>
+    <section>
+        <div class="cv-container">
+            <div class="cv-head">
+                <div>
+                    <h1>Aylin Westin</h1>
+                </div>
+                <div class="cv-intro">
+                    <p>I am an ambitious junior UX/UI designer with fundamental knowledge in front-end development. My passion is to create beautiful and meaningful projects.</p>
+                    <p>I consider myself as a creative, logical, disciplined, and proactive person. Currently looking for a opportunity to develop both personally and professionally.</p>
                 </div>
             </div>
-
-            <div class="portfolio-col">
-                <img src="images/card1.jpg">
-                <div class="layer">
-                    <h3>Interior Design</h3>
-                </div>
+            <div class="career">
+                <h3>Career</h3>
+                <ul class="employmentList"></ul>
             </div>
-
-            <div class="portfolio-col">
-                <img src="images/js-project.jpeg">
-                <div class="layer">
-                    <h3>
-                        JS Code Jam Project<br> <a href="https://github.com/aylin-kgz/js-number-guessing-game.git" target="_blank" >
-                            <i class="fa fa-github" aria-hidden="true"></i> GitHub repo .</a> <br> 
-                            <a href=" https://aylin-kgz.github.io/js-number-guessing-game/"> Live link</a> 
-                    </h3>
-                </div>
+    
+            <div class="education">
+                <h3>Education</h3>
+                <ul class="educationList"></ul>
+            </div>
+    
+            <div class="skills">
+                <h3>Languages</h3>
+                <ul class="skillsList"></ul>
             </div>
         </div>
     </section>
 
+    
+
+    <script src="js/cv.js"></script>
+
+</body>
+</html>

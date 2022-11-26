@@ -19,6 +19,8 @@
                 <ul>
                     <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>
                         HOME</a></li>
+                    <li><a href="cv.html"><i class="fa fa-folder-open" aria-hidden="true"></i>
+                            CV</a></li>    
                     <li><a href="portfolio.html"><i class="fa fa-briefcase" aria-hidden="true"></i>
                         PORTFOLIO</a></li>
                     <li><a class="active" href="contact.html"><i class="fa fa-phone" aria-hidden="true"></i>
@@ -28,46 +30,80 @@
         </nav>
     </section>
     
-    <section class="contact">
-        <div class="content">
-            <h2>Get in touch</h2>
-        </div>
-        <div class="container">
-            <div class="contactInfo">
-                <div class="box">
-                    <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
-                    <div class="text">
-                        <h3>E-Mail</h3>
+    <section class="container">
+        <span class="big-circle"></span>
+        <div class="form">
+            <div class="contact-info">
+                <h3 class="title">Get in touch</h3>
+                <p class="text">
+                    Feel free to contact me and I will get back to you as soon as I can.
+                </p>
+
+                <div class="info">
+                    <div class="information">
+                        <img src="images/location.png" class="icon" alt="">
+                        <p>Strandvägen 5A, 114 51 Stockholm</p>
+                    </div>
+                    <div class="information">
+                        <img src="images/mail.png" class="icon" alt="">
                         <p>contact.me@gmail.com</p>
                     </div>
-                </div>
-
-                <div class="box">
-                    <div class="icon"><i class="fa fa-phone-square" aria-hidden="true"></i></div>
-                    <div class="text">
-                        <h3>Phone</h3>
+                    <div class="information">
+                        <img src="images/phone-contact.png" class="icon" alt="">
                         <p>+46 76-324 37 42</p>
                     </div>
                 </div>
 
-                <div class="box">
-                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-                    <div class="text">
-                        <h3>Location</h3>
-                        <p>Strandvägen 5A, 114 51 Stockholm</p>
+                <div class="social-media">
+                    <div class="social-icons">
+                        <a href="https://github.com/aylin-kgz" target="_blank">
+                            <i class="fa fa-github" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/aylin-westin" target="_blank">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.facebook.com/aylin.kmva" target="_blank">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://t.me/aywtn" target="_blank">
+                            <i class="fa fa-telegram" aria-hidden="true"></i>
+                        </a>
                     </div>
                 </div>
+            </div>
+
+            <div class="contact-form">
+                <span class="circle one"></span>
+                <span class="circle two"></span>
+
+                <form action="contact.html">
+                    <h3 class="title">Contact me</h3>
+                    <div class="input-container">
+                        <input type="text" name="name" class="input" />
+                        <label for="">Your Name</label>
+                        <span>Your Name</span> 
+                    </div>
+                    <div class="input-container">
+                        <input type="email" name="email" class="input" />
+                        <label for="">Email Address</label>
+                        <span>Email Adress</span>
+                    </div>
+                    <div class="input-container">
+                        <input type="tel" name="phone" class="input" />
+                        <label for="">Phone</label>
+                        <span>Phone</span>
+                    </div>
+                    <div class="input-container textarea">
+                        <textarea name="message" class="input"></textarea>
+                        <label for="">Write your message</label>
+                        <span> Write your message</span>
+                    </div>
+                    <input type="submit" value="Send" class="btn" />
+                </form>
             </div>
         </div>
     </section>
 
-    <!---------- Footer Section ---------->
 
-    <section class="footer">
-        <div class="social">
-            <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            <a href=""><i class="fa fa-github" aria-hidden="true"></i></a>
-            <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
-            <a href=""><i class="fa fa-telegram" aria-hidden="true"></i></a>
-        </div>
-    </section>
+    <script src="js/contact.js"></script>
+
