@@ -3,7 +3,7 @@ const educationList = document.querySelector('.educationList')
 const skillsList = document.querySelector('.skillsList')
  
 async function getData() {
-    const url = '../json/cv.json';
+    const url = './json/cv.json';
     let response = await fetch(url);
     console.log('response: ', response);
 
